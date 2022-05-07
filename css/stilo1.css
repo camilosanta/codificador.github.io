@@ -1,0 +1,213 @@
+body{
+    width: 945px;
+    background: #E5E5E5;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+#logotopo-img{
+    width: 28px;
+    margin-top: 10px;
+    margin-left: 35px;
+}
+
+.caja-de-errores{
+    display: inline-block;
+    color:red;
+    margin-left: 50%;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.contendeortexto1{
+
+    display: inline-flex;
+
+}
+/*maximo de 32 caracteres*/
+.Encriptador-1{
+    margin-top: 80px;
+    margin-left: 50px;
+    width: 550px;
+    font-size: 25px;
+    height: 248px;
+    color:darkblue;
+    display: inline-flex;
+    border: none;
+    resize: none;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+.Encriptador-1::placeholder{
+    color: blue;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+
+
+.contendor-encriptador-2{
+
+    position:absolute;
+    top: 10px;
+
+    width: 450PX;
+    height: 600PX;
+    margin-left:21% ;
+    background-color: white;
+   
+    display: inline-flex;
+
+    border-radius: 25px;
+}
+
+.imagen1-contenedor{
+    
+    display: inline-block;
+    margin-top: 100px;
+    margin-left:87.5px;
+}
+.imagen1{
+    
+    width: 275px;
+    
+}
+.contenedortexto-no-encontrado{
+    display: block;
+    width: 275px;
+}
+.parrafo1{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bolder;
+
+}
+.parrafo2{
+    font-size: 13px;
+    margin-top: 16px;
+    margin-left: 6px ;
+}
+
+.informacion{
+    margin-top: 80px;
+    margin-left:110px ;
+    font-size: 16px;
+   
+}
+/*info imagen icono*/
+#info{
+    width:16px; 
+    float:left;
+    margin-right: 10px;
+
+}
+
+
+.controlcopiar{
+    
+    display: inline-block;
+}
+.controles{
+    display: inline-block;
+}
+.boton1,.boton2,.copiar{
+
+    width:308px;
+    height: 67px;
+    border: 1px solid blue;
+    border-radius: 24px;
+    transition: all 1S;
+}
+
+.boton1:hover,.boton2:hover,.copiar:hover{
+    color: white;
+    background-color: #124E96;
+}
+
+.boton1,.copiar{
+
+    background-color: darkblue;
+    
+    color: white;
+}
+.boton2{
+    margin-left: 24px;
+}
+
+.boton1,.boton2{
+    margin-top:10px ;
+}
+.boton1{
+    margin-left:100px;
+}
+.copiar{
+    margin-top: 70px;
+}
+.piedepagina{
+    margin-top: 50px;
+    display: inline-block;
+    border: none;
+    font-size: 13px;
+    margin-left: 50%;
+    padding: 15px;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+}
+.piedepagina h3,h4{
+    margin-bottom: 5px;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+/* clase adicionadas del javascript */
+.parrafo222{
+    max-width: 275px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bolder;
+  
+    word-wrap: break-word;
+
+}
+
+.contendor-encriptador-222{
+
+    position:absolute;
+    top: 10px;
+
+    width: 450PX;
+    height: 1000PX;
+    margin-left:21% ;
+    background-color: white;
+   
+    display: inline-flex;
+
+    border-radius: 25px;
+}
+
+.textoarea2{
+
+    position: absolute;
+    top: 50px;
+    left: 87.5px;
+    width: 275px;
+    height: 400px;  
+    resize: none;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: blue;
+    font-size: 25px;
+    border: none;
+}
+
+.textoarea3{
+    display: none;
+}
+
+.copiar2{
+    background-color: darkblue;
+    color: white;
+    width:308px;
+    height: 67px;
+    border: 1px solid blue;
+    border-radius: 24px;
+    margin-top: 368px;
+}
+.copiar2:hover{
+    color: white;
+    background-color: #124E96;
+}
